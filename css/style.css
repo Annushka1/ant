@@ -1,0 +1,60 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+
+// .container {
+//   width: 970px;
+//   margin: 0 auto;
+//   box-sizing: border-box;
+// }
+
+/*header-page*/
+
+.header-page__inner {
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-page__logo {
+  display: inline-block;
+}
+
+.header-page__logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.main-nav__link {
+  // flex-grow: 2px;
+  color: #2f2f30;
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.gallery {
+  height: 270px;
+}
+
+.about-title {
+  text-align: left;
+  font-size: 20px;
+  color: #8bbb3f;
+}
+
+.about__inner {
+  width: 302px;
+  margin: 0 auto;
+}

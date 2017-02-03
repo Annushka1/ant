@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <title>Муравейник</title>
+</head>
+<body>
+
+<header class="header-page">
+  <div class="header-page__inner">
+    <a href="" class="header-page__logo">
+      <img src="img/logo.png" alt="">
+    </a>
+    <nav class="main-nav">
+      <a href="tel:7812676700" class="main-nav__link">+7 (812) 67-67-00</a>
+      <a href="mailto:example@mail.com" class="main-nav__link">example@mail.com</a>
+      <a href="https://vk.com/muravei35" class="main-nav__link">vk.com/muravei35</a>
+    </nav>
+  </div>
+</header>
+
+<div class="gallery"></div>
+
+<div class="about">
+<div class="about__inner">
+   <h2 class="about-title">О компании</h2>
+  <ul class="about-items">
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <p class="about-text"></p>
+  <p class="about-text"></p>
+</div>
+</div>
+
+<div class="contacts__map" id="yndxMap"></div>
+
+<div class="footer-page">
+  <div class="container">
+    <p class="page-footer__text">Copyright 2017</p>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    // Яндекс карта
+    ymaps.ready(init);
+    var map;
+    function init() {
+      map = new ymaps.Map('yndxMap', {
+        center: [59.948110, 30.282692],
+        zoom: 13,
+        controls: []
+      });
+      var placemark = new ymaps.Placemark([59.94811, 30.222692], {}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'img/map-icon.png',
+        iconImageSize: [40, 64]
+      });
+      map.geoObjects.add(placemark);
+    }
+  });
+</script>
+
+</body>
+</html>
