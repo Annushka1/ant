@@ -38,7 +38,7 @@
 </div>
 </div>
 
-<div class="contacts__map" id="yndxMap"></div>
+<div id="map" style="height: 500px;"></div>
 
 <div class="footer-page">
   <div class="container">
@@ -46,26 +46,7 @@
   </div>
 </div>
 
-<script>
-  $(function () {
-    // Яндекс карта
-    ymaps.ready(init);
-    var map;
-    function init() {
-      map = new ymaps.Map('yndxMap', {
-        center: [59.948110, 30.282692],
-        zoom: 13,
-        controls: []
-      });
-      var placemark = new ymaps.Placemark([59.94811, 30.222692], {}, {
-        iconLayout: 'default#image',
-        iconImageHref: 'img/map-icon.png',
-        iconImageSize: [40, 64]
-      });
-      map.geoObjects.add(placemark);
-    }
-  });
-</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

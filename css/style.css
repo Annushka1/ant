@@ -21,6 +21,7 @@ body {
 
 .header-page__logo {
   display: inline-block;
+  margin: 0 40px 20px 0;
 }
 
 .header-page__logo img {
@@ -31,7 +32,6 @@ body {
 .main-nav {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
 }
 
 .main-nav__link {
@@ -57,4 +57,37 @@ body {
 .about__inner {
   width: 302px;
   margin: 0 auto;
+}
+
+@media (min-width: 480px) and (max-width: 1279px) {
+
+  .header-page {
+    padding: 50px 0 50px 0;
+  }
+
+  .main-nav {
+    margin-top: 0;
+  }
+
+  .header-page__inner {
+    width: 425px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-nav {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-page__logo img {
+    height: 110px;
+    width: 270px;
+  }
+
+  .main-nav__link {
+    width: 100%;
+    margin-bottom: 35px;
+  }
 }
