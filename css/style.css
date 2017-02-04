@@ -109,6 +109,8 @@ body {
 
 .slick-dots {
   bottom: -5px;
+  position: absolute;
+    display: flex;
 }
 
 .slick-dots li {
@@ -417,6 +419,10 @@ body {
 
   .gallery .slick-dots {
     bottom: 0;
+  }
+
+  .gallery .slick-prev {
+    left: 3%;
   }
 
   .about__inner {
