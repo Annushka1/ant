@@ -287,10 +287,6 @@ body {
     top: 50%;
   }
 
-  .gallery .slick-prev {
-    left: 9%;
-  }
-
   .slick-dots {
     bottom: -3px;
   }
@@ -419,10 +415,6 @@ body {
 
   .gallery .slick-dots {
     bottom: 0;
-  }
-
-  .gallery .slick-prev {
-    left: 3%;
   }
 
   .about__inner {
