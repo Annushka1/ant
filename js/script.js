@@ -5,6 +5,7 @@ $(document).ready(function(){
     dots:true
   });
 
+
 // карта
 ymaps.ready(init);
     var map;

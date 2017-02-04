@@ -33,6 +33,7 @@ body {
 .main-nav {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .main-nav__link {
@@ -44,27 +45,19 @@ body {
   text-align: center;
   margin-bottom: 25px;
   position: relative;
+  font-size: 12px;
+}
+.main-nav__link a {
+  text-decoration: none;
+  color: #2f2f30;
 }
 
-.main-nav__link:before {
-  content: "";
+.main-nav-img {
   position: absolute;
-  background-image: url(../img/spritesheet.png);
-  background-repeat: no-repeat;
-  left: -15px;
-  top: 0;
-}
-
-.link-phone:before {
-  background-position: -134px -5px;
-  width: 25px;
-  height: 25px;
-}
-
-.link-email:before {
-  width: 27px;
-  height: 19px;
-  background-position: -5px -45px;
+  top: 0px;
+  left: -5px;
+  height: 23px;
+  width: 23px;
 }
 
 .link-media:before {
@@ -81,23 +74,24 @@ body {
   width: 100wv;
   background-image: url(../img/slider1.jpg);
   background-size: cover;
-  padding: 100px 0 135px 0;
+  padding: 110px 0 115px 0;
 }
 
 .gallery-title {
   margin: 0;
   text-align: center;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .gallery .slick-next {
   content: " ";
-  right: 50px;
+  right: 5px;
   background-image: url(../img/spritesheet.png);
   width: 15px;
   height: 25px;
   background-position: -44px -5px;
+  top: 45%;
 }
 
 .gallery .slick-prev {
@@ -105,10 +99,61 @@ body {
   height: 25px;
   background-position: -69px -5px;
   background-image: url(../img/spritesheet.png);
-  left: 50px;
+  left: 5px;
   z-index: 2;
+  top: 45%;
 }
 
+.slick-dots li {
+  position: relative;
+}
+
+.slick-dots li[aria-hidden="false"] button {
+  background: #6f346d;
+  height: 8px;
+  width: 75px;
+}
+
+.slick-dots li[aria-hidden="true"] button {
+  background-color: #beff56;
+  height: 8px;
+  width: 75px;
+}
+
+
+
+#slick-slide00 li button {
+  position: absolute;
+}
+
+#slick-slide01 li button {
+  top: -10px;
+  left: 0;
+}
+
+#slick-slide01, #slick-slide02, #slick-slide03, #slick-slide04 {
+
+}
+
+// .tabs {
+//   position: relative;
+// }
+
+// .tabs li {
+//   position: absolute;
+//   height: 8px;
+//   width: 75px;
+//   background-color: #beff56;
+// }
+
+// #tab1 {
+//   top: -32px;
+//   left: -210px;
+// }
+
+// .selected {
+//   background-color: #6f346d;
+// }
 
 .about-title {
   text-align: left;
