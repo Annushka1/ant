@@ -68,6 +68,7 @@ body {
 
 .gallery {
   height: 270px;
+  margin-bottom: 50px;
 }
 
 .gallery-item {
@@ -109,8 +110,8 @@ body {
 }
 
 .slick-dots li {
-  width: 23%;
-  margin: 0 2px;
+  width: 24%;
+  // margin: 0 2px;
 }
 
 .slick-dots li[aria-hidden="false"] button {
@@ -125,45 +126,11 @@ body {
   width: 100%;
 }
 
-
-
-#slick-slide00 li button {
-  position: absolute;
-}
-
-#slick-slide01 li button {
-  top: -10px;
-  left: 0;
-}
-
-#slick-slide01, #slick-slide02, #slick-slide03, #slick-slide04 {
-
-}
-
-// .tabs {
-//   position: relative;
-// }
-
-// .tabs li {
-//   position: absolute;
-//   height: 8px;
-//   width: 75px;
-//   background-color: #beff56;
-// }
-
-// #tab1 {
-//   top: -32px;
-//   left: -210px;
-// }
-
-// .selected {
-//   background-color: #6f346d;
-// }
-
 .about-title {
   text-align: left;
   font-size: 30px;
   color: #8bbb3f;
+  margin-top: 0;
 }
 
 .about__inner {
@@ -213,6 +180,15 @@ body {
 
 .footer-page {
   background-color: #6f346d;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+
+.page-footer__inner {
+  margin: 0 auto;
+  width: 302px;
+  font-size: 12px;
+  color: #fff;
 }
 
 @media (min-width: 480px) and (max-width: 1279px) {
@@ -252,6 +228,31 @@ body {
     top: 0px;
   }
 
+  .gallery {
+    margin-bottom: 55px;
+    height: 300px;
+  }
+
+  .gallery-title {
+    font-size: 30px;
+  }
+
+  .gallery-item {
+    padding: 135px 0;
+    border-top: 5px solid #6f346d;
+  }
+
+  .gallery .slick-next, .gallery .slick-prev {
+    top: 57%;
+}
+
+.slick-dots {
+  bottom: -43px;
+}
+
+.slick-dots {
+  bottom: -14px;
+}
   .about__inner {
     width: 425px;
   }
@@ -260,10 +261,15 @@ body {
   #yndxMap {
     height: 329px;
   }
+
+  .page-footer__inner {
+    width: 425px;
+    font-size: 14px;
+  }
 }
 
 
-@media (min-width: 1080px) {
+@media (min-width: 1280px) {
 
   .header-page__inner {
     flex-direction: row;
@@ -287,7 +293,29 @@ body {
     top: 30px;
   }
 
+  .gallery-title {
+    font-size: 30px;
+  }
+
   .about__inner {
+    width: 970px;
+  }
+
+  .about-items {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .about-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  .slick-dots {
+  bottom: 7px;
+}
+.page-footer__inner {
     width: 970px;
   }
 
