@@ -5,7 +5,10 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0" />
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+ <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+ <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
   <title>Муравейник</title>
 </head>
 <body>
@@ -16,36 +19,48 @@
       <img src="img/logo.png" alt="">
     </a>
     <nav class="main-nav">
-      <a href="tel:7812676700" class="main-nav__link">+7 (812) 67-67-00</a>
-      <a href="mailto:example@mail.com" class="main-nav__link">example@mail.com</a>
-      <a href="https://vk.com/muravei35" class="main-nav__link">vk.com/muravei35</a>
+      <a href="tel:7812676700" class="main-nav__link link-phone">+7 (812) 67-67-00</a>
+      <a href="mailto:example@mail.com" class="main-nav__link link-email">example@mail.com</a>
+      <a href="https://vk.com/muravei35" class="main-nav__link link-media">vk.com/muravei35</a>
     </nav>
   </div>
 </header>
 
-<div class="gallery">
-  .
-</div>
+ <section class="gallery">
+    <div class="gallery-item slaider-1">
+      <h2 class="gallery-title">Утеплитель Пеноплекс</h2>
+    </div>
+    <div class="gallery-item slaider-2">
+      <h2 class="gallery-title">Утеплитель Пеноплекс</h2>
+    </div>
+    <div class="gallery-item slaider-3">
+      <h2 class="gallery-title">Утеплитель Пеноплекс</h2>
+    </div>
+    <div class="gallery-item slaider-4">
+      <h2 class="gallery-title">Утеплитель Пеноплекс</h2>
+    </div>
+  </section>
+
 
 <div class="about">
 <div class="about__inner">
    <h2 class="about-title">О компании</h2>
   <ul class="about-items">
-    <li></li>
-    <li></li>
-    <li></li>
+    <li class="about-item"><img class="parking about-img" src="img/parking.png" alt="">Удобная парковка</li>
+    <li class="about-item"><img class="shipment about-img" src="img/shipment.png" alt="">Быстрая отгрузка</li>
+    <li class="about-item"><img class=" personal about-img"src="img/personal.png"> Внимательное отношение персонала</li>
   </ul>
-  <p class="about-text"></p>
-  <p class="about-text"></p>
-</div>
-</div>
 
-<div class="map">
-  <div class="map__inner">
-    <div id="yndxMap" style="height: 500px;"></div>
+
+  <div class="about-text">
+    <p class="about-text-item">Строительный комплекс "Муравей" предлагает всем жителям города посетить наши Торговые Центры. У нас большой выбор стройматериалов, от гипсокартона и сухих смесей, до лампочек и саморезов. Вас приятно удивят наши цены и ассортимент, а так же удобная парковка, быстрая отгрузка и внимательное отношение персонала. </p>
+  <p class="about-text-item">Мы уверены, что каждый найдет у на с все чт о ему нужно для строительства и ремонта. Ждем Вас по адресу - <span class="underline">Череповецкий р-он, д. Борисово д.8,</span>  это всего в двух километрах от улицы Олимпийской в строну п. Ирдоматка.</p>
   </div>
+
+</div>
 </div>
 
+<div class="map" id="yndxMap""></div>
 
 <div class="footer-page">
   <div class="container">
@@ -53,7 +68,11 @@
   </div>
 </div>
 
-<script src="js/script.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
