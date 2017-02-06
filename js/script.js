@@ -19,7 +19,7 @@ ymaps.ready(init);
 
       var placemark = new ymaps.Placemark([59.108469, 38.042164], {balloonContent: 'Череповецкий р-он, д.Борисово, д.8'}, {
         iconLayout: 'default#image',
-        iconImageHref: 'img/map-icon.png',
+        iconImageHref: 'img/map-icon.svg',
         iconImageSize: [25, 35]
       });
       map.geoObjects.add(placemark);

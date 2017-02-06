@@ -64,8 +64,10 @@ body {
   left: -5px;
 }
 .media {
-  width: 26px;
-  height: 15px;
+  width: 30px;
+  height: 17px;
+  // top: -4px;
+  left: -2px;
 }
 
 .gallery {
@@ -90,21 +92,19 @@ body {
 .gallery .slick-next {
   content: "";
   right: 3%;
-  background-image: url(../img/spritesheet.png);
+  background-image: url(../img/array-right.svg);
   width: 15px;
   height: 25px;
-  background-position: -44px -5px;
-  top: 45%;
+  top: 47%;
 }
 
 .gallery .slick-prev {
   width: 15px;
   height: 25px;
-  background-position: -69px -5px;
-  background-image: url(../img/spritesheet.png);
+  background-image: url(../img/arrow-left.svg);
   left: 3%;
   z-index: 2;
-  top: 45%;
+  top: 47%;
 }
 
 .slick-dots {
@@ -259,12 +259,13 @@ body {
   }
 
   .email {
-    width: 26px;
+    width: 27px;
     height: 20px;
   }
   .media {
-    width: 30px;
-    height: 17px;
+    width: 33px;
+    height: 21px;
+    left: 17px;
   }
 
   .gallery {
@@ -390,8 +391,8 @@ body {
   }
 
   .media {
-    width: 30px;
-    height: 17px;
+    width: 33px;
+    height: 20px;
   }
 
   .gallery {
