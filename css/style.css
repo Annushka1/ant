@@ -65,10 +65,12 @@ body {
 }
 
 .email {
-  width: 24px;
-  height: 17px;
+  width: 27px;
+  height: 22px;
   left: 0;
+  top: -3px;
 }
+
 .media {
   width: 34px;
   height: 22px;
@@ -270,7 +272,7 @@ body {
 
   .email {
     width: 27px;
-    height: 20px;
+    height: 24px;
   }
   .media {
     width: 38px;
@@ -397,7 +399,7 @@ body {
 
   .email {
     width: 26px;
-    height: 20px;
+    height: 24px;
   }
 
   .media {
