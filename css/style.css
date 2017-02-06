@@ -64,10 +64,10 @@ body {
   left: -5px;
 }
 .media {
-  width: 30px;
-  height: 17px;
-  // top: -4px;
+  width: 34px;
+  height: 22px;
   left: -2px;
+  top: -3px;
 }
 
 .gallery {
@@ -263,9 +263,9 @@ body {
     height: 20px;
   }
   .media {
-    width: 33px;
-    height: 21px;
-    left: 17px;
+    width: 38px;
+    height: 27px;
+    left: 16px;
   }
 
   .gallery {
@@ -391,8 +391,9 @@ body {
   }
 
   .media {
-    width: 33px;
-    height: 20px;
+    width: 37px;
+    height: 28px;
+    top: 10px;
   }
 
   .gallery {
