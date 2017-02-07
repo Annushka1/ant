@@ -194,7 +194,7 @@ body {
 }
 
 .about-text-item:last-child {
-  color: #585858;
+  // color: #585858;
   margin-top: 24px;
 }
 
