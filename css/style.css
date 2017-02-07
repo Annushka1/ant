@@ -137,6 +137,10 @@ body {
   width: 100%;
 }
 
+.gallery .slick-dots li button:before {
+  content: "";
+}
+
 .about-title {
   text-align: left;
   font-size: 24px;
@@ -370,7 +374,7 @@ body {
 
   .header-page__inner {
     flex-direction: row;
-    width: 970px;
+    width: 1000px;
   }
 
   .header-page__logo {
@@ -439,6 +443,10 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 65px;
+  }
+
+  .about-text-item:last-child {
+    margin-top: 16px;
   }
 
   .about-items {
