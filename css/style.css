@@ -12,12 +12,13 @@ body {
   width: 302px;
   margin: 0 auto;
   box-sizing: border-box;
+  padding-bottom: 5px;
 }
 
 .header-page__logo {
   display: inline-block;
-  height: 145px;
-  padding: 20px 10px;
+  height: 135px;
+  padding: 23px 10px;
 }
 
 .header-page__logo img {
@@ -225,7 +226,7 @@ body {
 @media (min-width: 480px) {
 
   .header-page {
-    padding: 40px 0 7px 0;
+    padding: 40px 0 15px 0;
   }
 
   .main-nav {
@@ -233,13 +234,15 @@ body {
   }
 
   .header-page__inner {
-    width: 430px;
+    width: 420px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 0;
   }
 
   .header-page__logo {
     width: 55%;
+    padding: 20px 0;
   }
 
   .main-nav {
@@ -247,6 +250,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    padding-left: 15px;
   }
 
   .header-page__logo img {
@@ -288,7 +292,7 @@ body {
     margin-bottom: 55px;
     height: 305px;
     border-top: 5px solid #6f346d;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
   }
 
   .gallery-title {
@@ -308,7 +312,7 @@ body {
     bottom: -3px;
   }
   .about__inner {
-    width: 390px;
+    width: 380px;
   }
 
   .about-title {
@@ -321,7 +325,7 @@ body {
   }
 
   .about-item {
-    margin: 60px 0 75px 0;
+    margin: 65px 0 75px 0;
   }
 
   .about-item:last-child {
@@ -339,6 +343,7 @@ body {
 
   .about-text-item:last-child {
     margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .about-img {
@@ -356,7 +361,7 @@ body {
     padding: 10px 0;
   }
   .page-footer__inner {
-    width: 392px;
+    width: 390px;
     font-size: 14px;
   }
 
