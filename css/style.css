@@ -99,7 +99,7 @@ body {
   text-overflow: clip;
   overflow: hidden;
   height: 73px;
-  width: 88%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -306,7 +306,6 @@ body {
     font-size: 30px;
     font-weight: bold;
     height: 105px;
-    width: 80%;
   }
 
   .gallery-item {
@@ -439,7 +438,6 @@ body {
     font-size: 30px;
     font-weight: bold;
     height: 105px;
-    width: 80%;
   }
 
   .gallery-item {
