@@ -87,7 +87,7 @@ body {
 .gallery-item {
   background-image: url(../img/slider1.jpg);
   background-size: cover;
-  padding: 120px 0 130px 0;
+  padding: 120px 0 124px 0;
 }
 
 .gallery-title {
@@ -96,6 +96,11 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  text-overflow: clip;
+  overflow: hidden;
+  height: 27px;
+  width: 88%;
+  margin: 0 auto;
 }
 
 .gallery .slick-next {
@@ -298,6 +303,8 @@ body {
   .gallery-title {
     font-size: 30px;
     font-weight: bold;
+    height: 35px;
+    width: 92%;
   }
 
   .gallery-item {
