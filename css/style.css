@@ -87,7 +87,7 @@ body {
 .gallery-item {
   background-image: url(../img/slider1.jpg);
   background-size: cover;
-  padding: 120px 0 124px 0;
+  padding: 120px 0 77px 0;
 }
 
 .gallery-title {
@@ -98,7 +98,7 @@ body {
   font-weight: bold;
   text-overflow: clip;
   overflow: hidden;
-  height: 27px;
+  height: 73px;
   width: 88%;
   margin: 0 auto;
 }
@@ -190,6 +190,7 @@ body {
 
 .about-text-item {
   line-height: 17px;
+  font-weight: 400;
 }
 
 .about-text-item:last-child {
@@ -303,12 +304,12 @@ body {
   .gallery-title {
     font-size: 30px;
     font-weight: bold;
-    height: 35px;
-    width: 92%;
+    height: 105px;
+    width: 80%;
   }
 
   .gallery-item {
-    padding: 130px 0 135px 0;
+    padding: 130px 0 65px 0;
   }
 
   .gallery .slick-next, .gallery .slick-prev {
@@ -433,10 +434,12 @@ body {
   .gallery-title {
     font-size: 30px;
     font-weight: bold;
+    height: 105px;
+    width: 80%;
   }
 
   .gallery-item {
-    padding: 130px 0 135px 0;
+    padding: 130px 0 65px 0;
   }
 
   .gallery .slick-next, .gallery .slick-prev {
