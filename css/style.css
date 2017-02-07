@@ -319,7 +319,7 @@ body {
     bottom: -3px;
   }
   .about__inner {
-    width: 380px;
+    width: 420px;
   }
 
   .about-title {
@@ -368,7 +368,7 @@ body {
     padding: 10px 0;
   }
   .page-footer__inner {
-    width: 380px;
+    width: 420px;
     font-size: 14px;
   }
 
@@ -507,7 +507,7 @@ body {
   }
 
   .page-footer__inner {
-    width: 1171px;
+    width: 1000px;
     font-size: 14px;
   }
 
@@ -515,4 +515,9 @@ body {
     width: 30px;
     height: 30px;
   }
+}
+
+.border {
+  border-radius: 50%;
+  border: 1px solid #000;
 }
