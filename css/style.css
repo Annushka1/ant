@@ -293,7 +293,7 @@ body {
 
   .gallery-title {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: bold;
   }
 
   .gallery-item {
@@ -308,13 +308,13 @@ body {
     bottom: -3px;
   }
   .about__inner {
-    width: 388px;
+    width: 390px;
   }
 
   .about-title {
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 24px;
   }
   .about-items {
     padding-left: 80px;
