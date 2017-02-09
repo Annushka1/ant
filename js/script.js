@@ -11,13 +11,13 @@ ymaps.ready(init);
     var map;
     function init() {
       map = new ymaps.Map('yndxMap', {
-        center: [59.108469, 38.042164],
+        center: [59.120158, 38.052843],
         iconContent: 'test',
         zoom: 13,
         controls: []
       });
 
-      var placemark = new ymaps.Placemark([59.108469, 38.042164], {balloonContent: 'Череповецкий р-он, д.Борисово, д.8'}, {
+      var placemark = new ymaps.Placemark([59.120158, 38.052843], {balloonContent: 'Череповецкий р-он, д.Борисово, д.2'}, {
         iconLayout: 'default#image',
         iconImageHref: 'img/map-icon.svg',
         iconImageSize: [25, 35]
