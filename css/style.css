@@ -420,25 +420,6 @@ body {
 }
 
 
-@media (min-width: 774px) {
-  .wrapper {
-    overflow: hidden;
-  }
-
-  .footer-page {
-    position: relative;
-  }
-
-  .development {
-    width: 100%;
-    transform: rotate(-45deg);
-    position: absolute;
-    right: -330px;
-    bottom: 30px;
-  }
-}
-
-
 @media (min-width: 1280px) {
   .header-page {
     padding: 30px 0 10px 0;
@@ -579,7 +560,18 @@ body {
     margin-right: 17px;
   }
 
+  .wrapper {
+    overflow: hidden;
+  }
+
+  .footer-page {
+    position: relative;
+  }
+
   .development {
+    width: 100%;
+    transform: rotate(-45deg);
+    position: absolute;
     right: -600px;
     font-size: 16px;
     bottom: 40px;
