@@ -245,15 +245,13 @@ body {
 }
 
 .development {
-  bottom: 0;
-  left: 0;
   display: block;
   background-color: #d00016;
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 10px 0;
-  text-transform: uppercase;
+  padding: 5px 0;
+  font-weight: bold;
 }
 
 .under-development {
@@ -422,6 +420,25 @@ body {
 }
 
 
+@media (min-width: 774px) {
+  .wrapper {
+    overflow: hidden;
+  }
+
+  .footer-page {
+    position: relative;
+  }
+
+  .development {
+    width: 100%;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -330px;
+    bottom: 30px;
+  }
+}
+
+
 @media (min-width: 1280px) {
   .header-page {
     padding: 30px 0 10px 0;
@@ -562,24 +579,11 @@ body {
     margin-right: 17px;
   }
 
-  .under-development {
-    width: 208px;
-    height: 208px;
+  .development {
+    right: -600px;
+    font-size: 16px;
+    bottom: 40px;
   }
 }
 
-@media (min-width: 774px) {
-.under-development {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 195px;
-  height: 195px;
-  background: url(../img/under-development.png);
-}
-
-.development {
-  display: none;
-}
-}
 
