@@ -258,6 +258,11 @@ body {
   width: 0;
 }
 
+.development span {
+  display: block;
+  line-height: 16px;
+}
+
 @media (min-width: 480px) {
 
   .header-page {
@@ -569,13 +574,16 @@ body {
   }
 
   .development {
-    width: 100%;
-    transform: rotate(-45deg);
+    display: none;
+  }
+
+  .under-development {
     position: absolute;
-    right: -600px;
-    font-size: 16px;
+    width: 370px;
+    height: 48px;
+    background-image: url(../img/dev.png);
     bottom: 40px;
+    right: -120px;
+    transform: rotate(-45deg);
   }
 }
-
-
