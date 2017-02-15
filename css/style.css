@@ -263,6 +263,23 @@ body {
   line-height: 16px;
 }
 
+.pic-desk, .pic-tablet {
+  display: none;
+}
+
+
+.gallery-pic {
+  background-size: contain;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: 0 10%;
+}
+
+.pic-phone {
+  display: block;
+}
+
 @media (min-width: 480px) {
 
   .header-page {
@@ -421,6 +438,16 @@ body {
     height: 30px;
     z-index: 2;
   }
+
+  .pic-phone, .pic-desk {
+  display: none;
+}
+
+.pic-tablet {
+  display: block;
+}
+
+
 
 }
 
@@ -586,5 +613,13 @@ body {
     right: -105px;
     transform: rotate(-45deg);
   }
+
+.pic-phone, .pic-tablet  {
+  display: none;
+}
+
+.pic-desk {
+  display: block;
+}
 }
 
