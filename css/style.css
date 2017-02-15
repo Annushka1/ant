@@ -440,12 +440,12 @@ body {
   }
 
   .pic-phone, .pic-desk {
-  display: none;
-}
+    display: none;
+  }
 
-.pic-tablet {
-  display: block;
-}
+  .pic-tablet {
+    display: block;
+  }
 
 
 
@@ -614,12 +614,12 @@ body {
     transform: rotate(-45deg);
   }
 
-.pic-phone, .pic-tablet  {
-  display: none;
-}
+  .pic-phone, .pic-tablet  {
+    display: none;
+  }
 
-.pic-desk {
-  display: block;
-}
+  .pic-desk {
+    display: block;
+  }
 }
 
