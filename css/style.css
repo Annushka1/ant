@@ -446,7 +446,8 @@ body {
 
   .pic-tablet {
     display: block;
-    width: 564px;
+    // width: 564px;
+    width: 430px;
     margin: 0 auto;
   }
 
