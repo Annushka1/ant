@@ -270,7 +270,6 @@ body {
 
 .gallery-pic {
   background-size: contain;
-  width: 80%;
   height: 100%;
   text-align: center;
   margin: 0 10%;
@@ -278,6 +277,8 @@ body {
 
 .pic-phone {
   display: block;
+  width: 308px;
+  margin: 0 auto;
 }
 
 @media (min-width: 480px) {
@@ -445,6 +446,8 @@ body {
 
   .pic-tablet {
     display: block;
+    width: 564px;
+    margin: 0 auto;
   }
 
 
@@ -620,6 +623,8 @@ body {
 
   .pic-desk {
     display: block;
+    width: 1080px;
+    margin: 0 auto;
   }
 }
 
